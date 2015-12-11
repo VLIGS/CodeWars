@@ -3,7 +3,7 @@ public class JadenCase {
 
     // capitalize every word in phrase
     public String toJadenCase(String phrase) {
-        if (phrase.equals(null)){
+        if (phrase == null ){
             return null;
         }
         StringBuilder newPhrase = new StringBuilder(phrase);
