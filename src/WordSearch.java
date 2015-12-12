@@ -17,6 +17,11 @@ class WordSearch {
                 count+=1;
             }
         }
+        if(myReturnString.length==0){
+            String [] myEmptyString = new String[1];
+            myEmptyString[0] = "Empty";
+            return myEmptyString;
+        }
         return myReturnString;
     }
 }
