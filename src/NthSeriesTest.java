@@ -6,6 +6,10 @@ import static org.junit.Assert.assertEquals;
 public class NthSeriesTest {
 
     @Test
+    public void test0() {
+        assertEquals(NthSeries.seriesSum(1), "1.00");
+    }
+    @Test
     public void test1() {
         assertEquals(NthSeries.seriesSum(5), "1.57");
     }
